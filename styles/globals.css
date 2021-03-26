@@ -28,7 +28,7 @@ body {
 }
 
 .hero-text {
-    background: linear-gradient(to right, rgb(30, 64, 175), rgb(124, 58, 237), rgb(5, 150, 105));
+    /*background: linear-gradient(to right, rgb(30, 64, 175), rgb(124, 58, 237), rgb(5, 150, 105));*/
     background-size: 200% 200%;
     background-clip: text;
     color: transparent;
