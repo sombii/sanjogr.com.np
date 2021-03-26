@@ -3,6 +3,7 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 ##Live Site
 [https://sanjogr.com.np](https://sanjogr.com.np)
 
+NextJs, TailwindCSS
 
 Personal portfolio website of Sanjog Rai written in Next.js and TailwindCSS.
 ## Run Locally
