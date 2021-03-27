@@ -15,11 +15,12 @@ body {
     background-color: #191b1f;
     transition: all ease 100ms;
 }
+
 .outer-hero {
-    background-image: url("../public/hero.svg");
+    /*background-image: url("../public/hero.svg");*/
     background-repeat: no-repeat;
     /*background-size: 600px;*/
-    background-position: bottom right;
+    background-position: 110% -10%;
 }
 
 .hero {
@@ -44,13 +45,27 @@ body {
 }
 
 .yLine {
-    /*height: 100%;*/
-    /*width: 0;*/
-    border-left: 1px dashed #504e4e;
-    /*position: absolute;*/
-    /*left: 5rem;*/
+    /*border-left: 1px dashed #504e4e;*/
+    /*border-right: 1px dashed #504e4e;*/
 }
-.nav-item:hover  span{
+
+.griddy {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    grid-template-rows: repeat(auto-fill, minmax(300px, 1fr));
+}
+
+.griddySon {
+    /*border: 1px dashed #2a2727;*/
+    border-left: 1px dashed #2a2727;
+    border-top: 1px dashed #2a2727;
+}
+
+.griddySon:nth-child(3n+3) {
+    background-color: #1a1b1f;
+}
+
+.nav-item:hover span {
     width: 50px;
     height: 50px;
 }
