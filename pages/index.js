@@ -14,7 +14,16 @@ export default function Home() {
                 <link rel="icon" href="/favicon.ico"/>
             </Head>
             {/*<div className="xLine sm:top-36 top-14"/>*/}
-            <div className="griddy fixed top-0 left-0 w-full h-full">
+            <div className="griddy absolute top-0 left-0 w-full h-full">
+                <div className="griddySon"/>
+                <div className="griddySon"/>
+                <div className="griddySon"/>
+                <div className="griddySon"/>
+                <div className="griddySon"/>
+                <div className="griddySon"/>
+                <div className="griddySon"/>
+                <div className="griddySon"/>
+                <div className="griddySon"/>
                 <div className="griddySon"/>
                 <div className="griddySon"/>
                 <div className="griddySon"/>
