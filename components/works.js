@@ -1,9 +1,9 @@
 export default function Works() {
     return (
         <section id="works" className="sm:mb-48 mb-28">
-            <h2 className="text-7xl pb-28">Works</h2>
+            <h2 className="text-5xl sm:text-7xl pb-28">Works</h2>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-24">
-                <article className="max-w-xs relative ml-8 mb-14 font-chakra text-lg">
+                <article className="max-w-xs relative sm:ml-8 mb-14 font-chakra text-lg">
                     <span className="text-green-300 absolute -right-0 -top-4 text-6xl">0</span>
                     <h3 className="text-xl text-green-300">MeroIPO </h3>
                     <span className="block my-4">NextJs, Material UI</span>
@@ -12,7 +12,7 @@ export default function Works() {
                        className="mt-8 block text-blue-400">Demo
                     </a>
                 </article>
-                <article className="max-w-xs relative ml-8 mb-14 font-chakra text-lg">
+                <article className="max-w-xs relative sm:ml-8 mb-14 font-chakra text-lg">
                     <span className="text-green-300 absolute -right-0 -top-4 text-6xl">1</span>
                     <h3 className="text-xl text-green-300">IPO Tracker </h3>
                     <span className="block my-4">ExpressJs, MongoDB</span>
@@ -20,7 +20,7 @@ export default function Works() {
                     <a href="https://github.com/sombii/ipo-tracker" target="_blank" title="source and demo"
                        className="mt-8 block text-blue-400">Source (github) </a>
                 </article>
-                <article className="max-w-xs relative ml-8 mb-14 font-chakra text-lg">
+                <article className="max-w-xs relative sm:ml-8 mb-14 font-chakra text-lg">
                     <span className="text-green-300 absolute -right-0 -top-4 text-6xl">2</span>
                     <h3 className="text-xl text-green-300">Mero Share Clone </h3>
                     <span className="block my-4">ReactJs, Material UI</span>

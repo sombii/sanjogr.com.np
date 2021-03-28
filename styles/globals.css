@@ -51,14 +51,16 @@ body {
 
 .griddy {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-    grid-template-rows: repeat(auto-fill, minmax(300px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    grid-template-rows: repeat(auto-fill, minmax(200px, 1fr));
 }
 
 .griddySon {
-    /*border: 1px dashed #2a2727;*/
-    border-left: 1px dashed #2a2727;
-    border-top: 1px dashed #2a2727;
+    /*border-left: 1px dashed #2a2727;*/
+    /*border-top: 1px dashed #2a2727;*/
+    border-left: 1px dashed #2a2929;
+    border-top: 1px dashed #2a2929;
+    /*opacity: 0.4;*/
 }
 
 .griddySon:nth-child(3n+3) {
