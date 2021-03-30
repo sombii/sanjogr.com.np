@@ -8,7 +8,7 @@ import Tags from "../components/tags";
 
 export default function Home() {
     return (
-        <div className="flex justify-center font-bungee px-4 text-white outer-hero relative xl:bg-600 bg-50p relative">
+        <div className="flex justify-center font-limeLight px-4 text-white outer-hero relative xl:bg-600 bg-50p relative">
             <Head>
                 <title>Sanjog Rai</title>
                 <link rel="icon" href="/favicon.ico"/>

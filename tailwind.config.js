@@ -4,8 +4,9 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        bungee: ['Bungee', "sans-serif"],
+        limeLight: ['Limelight', "sans-serif"],
         chakra: ["Chakra Petch", "sans-serif"],
+        martel: ["Martel", "sans-serif"]
       },
       backgroundSize: {
         "25p": "25%",
