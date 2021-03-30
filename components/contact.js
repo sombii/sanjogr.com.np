@@ -3,7 +3,7 @@ export default function Contact() {
         <section id="contact" className="mb-48">
             <h2 className="text-5xl sm:text-7xl pb-20 font-martel">Contact</h2>
             <div className="flex justify-between font-chakra md:flex-row flex-col">
-                <div className="flex flex-col items-start ml-4 mt-4 text-lg">
+                <div className="flex flex-col items-start sm:ml-4 mt-4 text-lg">
                     <span className="pb-1 text-blue-400">
                         <a href="tel:09807123304">09807123304</a>
                     </span>
@@ -12,7 +12,7 @@ export default function Contact() {
                     </span>
                     <span>Hetauda, Makawanpur, Nepal</span>
                 </div>
-                <div className="md:mt-0 mt-14">
+                <div className="md:mt-0 mt-14 sm:-ml-0 -ml-4">
                     <div className="flex items-center">
                         <a href="https://nextjs.org/" target="_blank">
                             <img src="./assets/next.svg" alt="nextjs" title="nextjs" className="w-14 h-14 m-4"/>

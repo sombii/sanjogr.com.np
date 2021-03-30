@@ -9,12 +9,12 @@ export default function Hero() {
                         className="hero-text lg:text-9xl text-7xl py-3 bg-gradient-to-r from-blue-800 via-purple-600 to-green-600"
                     >SANJOG</span>
                 </h1>
-                <div className="mt-20 font-chakra text-xl sm:ml-4">
+                <div className="mt-20 font-chakra text-xl ">
                     <span className="block">React Developer</span>
                     <span>Hetauda, Nepal</span>
                 </div>
                 <div
-                    className="flex text-lg items-center justify-end w-full pb-20  mt-16 font-chakra">
+                    className="flex text-lg items-center w-full pb-20  mt-16 font-chakra">
                     <a href="https://github.com/sombii/" target="_blank" className="mr-16 relative nav-item z-10">
                         <div>
                             <span className="relative z-10">github</span>
