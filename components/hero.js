@@ -6,7 +6,7 @@ export default function Hero() {
                 <h1 className="font-limeLight">
                     <span className="lg:text-5xl text-4xl z-10 relative flex flex-row">RAI,</span>
                     <span
-                        className="hero-text lg:text-9xl text-7xl py-3 bg-gradient-to-r from-blue-800 via-purple-600 to-green-600"
+                        className="hero-text md:text-8xl lg:text-9xl text-7xl py-3 bg-gradient-to-r from-blue-400 via-purple-400 to-green-400"
                     >SANJOG</span>
                 </h1>
                 <div className="mt-20 font-chakra text-xl ">
